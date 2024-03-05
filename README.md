@@ -12,7 +12,7 @@ Execute all the notebook cells. For best performance, use a Google Cloud Engine 
 - A dropout range of 0.1 to 0.5 was tested, with 0.2 yielding the highest accuracy. Furthermore, reducing dropout towards the network's end enhanced performance significantly.
 - The funnel architecture emerged as the most effective, described below:
 
-Total parameters: 19.16113M.
+Total parameters: 22.77M.
 It starts with a linear layer of 2048 neurons, followed by batch normalization, GeLU activation, and a 0.1 dropout.
 Four subsequent linear layers each contain 2048 neurons, batch normalization, GeLU activation, and a 0.2 dropout.
 The next layers include one with 1024 neurons and another identical layer, both followed by batch normalization, GeLU activation, and dropouts of 0.1 and 0.05, respectively.
@@ -46,3 +46,4 @@ artifact_dir = artifact.download()
 # Wandb Report 
 Access the wandb report on val accuracy, train accuracy, val loss, train loss and lr using this link: https://api.wandb.ai/links/geerishj/lw1ptmlw 
 
+I have also attached the report in pdf format in the tar file.
