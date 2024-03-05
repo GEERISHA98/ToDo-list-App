@@ -1,7 +1,3 @@
-![Forks](https://img.shields.io/badge/forks-44-blue)
-![Stars](https://img.shields.io/badge/stars-13-yellow)
-# ToDo-list-App
-
 # Instructions for Running the Code:
 Since all my code is contained within a single Jupyter notebook, running it is quite straightforward. 
 Please follow these steps to ensure everything operates smoothly:
@@ -47,5 +43,6 @@ run = wandb.init()
 artifact = run.use_artifact('geerishj/hw1p2/run-an53jkth-history:v0', type='wandb-history')
 artifact_dir = artifact.download()
 
-# Access the wandb report on val accuracy, train accuracy, val loss, train loss and lr using this link: https://api.wandb.ai/links/geerishj/lw1ptmlw 
+# Wandb Report 
+Access the wandb report on val accuracy, train accuracy, val loss, train loss and lr using this link: https://api.wandb.ai/links/geerishj/lw1ptmlw 
 
